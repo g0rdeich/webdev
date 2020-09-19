@@ -1,0 +1,470 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/Roboto-Regular.ttf")
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1600px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.header-menu {
+    display: block;
+}
+
+.header-menu-container {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+}
+
+.hidden {
+    display: none;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: -50px;
+}
+
+.header-menu-item {
+    padding: 0 42.5px;
+}
+
+.header-menu-item:nth-child(2) {
+    padding: 0 122.5px 0 42.5px;
+}
+
+.header-menu-item:nth-child(3) {
+    padding: 0 42.5px 0 122.5px;
+}
+
+.header-menu-item a {
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+.header-menu-item-active a {
+    opacity: 100%;
+}
+
+.header-logo-container {
+    position: absolute;
+    left: 778px;
+}
+
+.fix {
+    width: 100%;
+    height: 674px;
+}
+
+.your-life {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 744px;
+    background-color: #000000;
+    background-image: url("assets/bg-image.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.motto {
+    margin-top: 231px;
+    font-size: 64px;
+    color: #ffffff;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text {
+    position: absolute;
+    top: 326px;
+    left: 548px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 140%;
+    width: 504px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #00AFDB;
+    padding: 15px 47px;
+}
+
+.your-life .btn-main {
+    position: absolute;
+    top: 406px;
+    left: 707px;
+}
+
+.your-life-social {
+    position: absolute;
+    top: 635px;
+    left: 715px;
+    display: flex;
+    font-size: 0;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.social-btn-mail {
+    background-image: url("assets/mail_fff.svg")
+}
+
+.social-btn-fb {
+    background-image: url("assets/facebook_fff.svg")
+}
+
+.social-btn-ig {
+    background-image: url("assets/insta_fff.svg")
+}
+
+.social-btn-tg {
+    background-image: url("assets/telegram_fff.svg")
+}
+
+.rappresent {
+    position: relative;
+    width: 100%;
+    height: 842px;
+}
+
+.content-block-rappresent {
+    position: absolute;
+    top: 295px;
+    left: 268px;
+    width: 407px;
+    height: 233px;
+}
+
+.pic-container {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+}
+
+.pic-container-rappresent {
+    top: 120px;
+    left: 923px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-align: left;
+    color: #373737;
+}
+
+.section-info {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    color: #4e4e4e;
+}
+
+.community {
+    position: relative;
+    width: 100%;
+    height: 504px;
+    background-color: #f5f6f7;
+    overflow: hidden;
+}
+
+.community-info {
+    position: absolute;
+    top: 155px;
+    left: 269px;
+    width: 298px;
+    height: 175px;
+    text-align: center;
+}
+
+.community-section-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+}
+
+.slider {
+    position: absolute;
+    top: 120px;
+    left: 706px;
+    width: 1281px;
+    height: 244px;
+    display: flex;
+}
+
+.slider-item-1,
+.slider-item-2 {
+    margin-right: 30px;
+}
+
+.slider-pages {
+    position: absolute;
+    top: 80px;
+    left: 1252px;
+    width: 79px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-pages span {
+    font-size: 18px;
+    color: #373737;
+    line-height: 140%;
+}
+
+.implement {
+    position: relative;
+    width: 100%;
+    height: 842px;
+}
+
+.pic-container-implement {
+    position: absolute;
+    top: 120px;
+    left: 269px;
+}
+
+.content-block-implement {
+    position: absolute;
+    top: 319px;
+    left: 815px;
+    width: 407px;
+    heigth: 184px;
+}
+
+.subscribe {
+    position: relative;
+    width: 100%;
+    height: 598px;
+    background-image: url("assets/pexels-christina-morillo-1181675 1.jpg");
+}
+
+.subscribe-form {
+    position: absolute;
+    top: 217px;
+    left: 597px;
+    width: 406px;
+    height: 104px;
+}
+
+.subscribe-section-title {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.subscribe-flex-cont {
+    display: flex;
+}
+
+.email {
+    margin-top: 30px;
+    padding-left: 24px;
+    width: 316px;
+    height: 44px;
+    outline: none;
+    border: none;
+    color: #373737;
+}
+
+.email::placeholder {
+    color: #373737;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin-top: 30px;
+    width: 66px;
+    height: 46px;
+    background-color: #00AFDB;
+    outline: none;
+    border: none;
+    color: #373737;
+}
+
+.download {
+    position: relative;
+    width: 100%;
+    height: 468px;
+    background-color: #f5f6f7;
+}
+
+.download-container {
+    position: absolute;
+    top: 120px;
+    left: 559px;
+    width: 483px;
+    height: 168px;
+}
+
+.download-info {
+    width: 483px;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.download-section-title {
+    text-align: center;
+}
+
+.download-buttons {
+    width: 406px;
+    margin-left: 38px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-store {
+    position: relative;
+    height: 32px;
+    width: 128px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #00AFDB;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 18px;
+}
+
+.btn-store:nth-child(2) {
+    margin-right: 60px;
+}
+
+.btn-store:after {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    content: "";
+    background-color: #009cc2;
+    display: block;
+    width: 60px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-store:nth-child(1):after {
+    background-image: url("assets/icon-apple.svg");
+}
+
+.btn-store:nth-child(2):after {
+    background-image: url("assets/icon-android.svg");
+}
+
+.page-footer {
+    position: relative;
+    width: 100%;
+    height: 184px;
+    background-color: #000000;
+}
+
+
+.footer-container {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav-item {
+    margin-right: 20px;
+}
+
+.footer-nav-item:nth-child(2),
+.footer-nav-item:nth-child(3){
+    margin-left: 20px;
+    position: relative;
+}
+
+.footer-nav-item:nth-child(2):before,
+.footer-nav-item:nth-child(3):before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 8px;
+    left: -20px;
+    top: 7px;
+    background-color: #4e4e4e;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #818181;
+    line-height: 140%;
+}
+
+.footer-logo-container {
+    position: absolute;
+    left: 778px;
+    top: 60px;
+}
